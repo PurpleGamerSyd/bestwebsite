@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
     console.log(req.body)
+    res.send("ha ha https://youtu.be/j1RjqonnU7M?t=121")
 })
 
 app.listen(port, () => {
