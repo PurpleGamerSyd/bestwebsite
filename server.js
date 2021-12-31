@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/corbettxshelby', (req, res) => {
-  res.sendFile(`${__dirname}/cor.html`)
+  res.sendFile(`${__dirname}/corbettxshelby.html`)
 })
 
 app.post('/', (req, res) => {
