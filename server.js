@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.sendFile(`${__dirname}/index.html`)
 })
 
+app.get('/corbettxshelby', (req, res) => {
+  res.sendFile(`${__dirname}/cor.html`)
+})
+
 app.post('/', (req, res) => {
     console.log(req.body)
     res.send("ha ha https://youtu.be/j1RjqonnU7M?t=121")
@@ -17,3 +21,4 @@ app.post('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
+
